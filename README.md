@@ -25,5 +25,5 @@ docker run \
   --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
-  robertdebock/docker-opensuse-systemd
+  robertdebock/opensuse
 ```
