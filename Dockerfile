@@ -1,5 +1,7 @@
 FROM opensuse/leap
-LABEL maintainer="Robert de Bock"
+
+LABEL maintainer="Robert de Bock <robert@meinit.nl>"
+
 ENV container=docker
 
 RUN zypper install -y dbus-1 systemd-sysvinit && \
@@ -14,4 +16,5 @@ RUN zypper install -y dbus-1 systemd-sysvinit && \
     rm -f /usr/lib/systemd/system/anaconda.target.wants/*
 
 VOLUME ["/sys/fs/cgroup"]
+
 CMD ["/sbin/init"]
