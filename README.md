@@ -3,6 +3,8 @@ Docker OpenSUSE Systemd
 
 This Dockerfile can build containers capable to use systemd.
 
+[![opensuse build status](https://img.shields.io/docker/cloud/build/robertdebock/opensuse.svg)](https://hub.docker.com/repository/docker/robertdebock/opensuse)
+
 Branches
 --------
 
