@@ -1,7 +1,7 @@
 FROM opensuse/leap
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
-LABEL build_date="2022-01-03"
+LABEL build_date="2022-03-02"
 
 ENV container=docker
 
